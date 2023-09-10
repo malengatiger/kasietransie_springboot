@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="189642ce-6e2c-4b2c-bb42-d627aed44142" name="Changes" comment="🍎initial commit after repo move">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/KasieTransieBackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/config/MongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/controllers/DataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/controllers/ListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/AmbassadorCheckIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/AmbassadorPassengerCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/AppError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/Association.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/AssociationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/CalculatedDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/Commuter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/CommuterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/CommuterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/CountryBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/DispatchRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/ExampleFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/HeartbeatMeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/Landmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/LocationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/LocationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/RegistrationBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/Route.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/RouteAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/RouteCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/RouteInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/RouteLandmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/RoutePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/RoutePointList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/RouteStartEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/RouteUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/SettingsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/Timezone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/TranslationBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/UserGeofenceEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/VehicleArrival.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/VehicleDeparture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/VehicleHeartbeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/VehicleHeartbeatTimeSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/VehicleMediaRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/VehiclePhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/dto/VehicleVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/AmbassadorCheckInRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/AmbassadorPassengerCountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/AppErrorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/AssociationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/AssociationTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/CalculatedDistanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/CityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/CommuterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/CommuterRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/CommuterResponseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/DispatchRecordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/ExampleFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/HeartbeatRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/LandmarkRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/LocationRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/LocationResponseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/RouteAssignmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/RouteCityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/RouteLandmarkRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/RoutePointRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/RouteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/RouteUpdateRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/SettingsModelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/StateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/TranslationBagRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/UserGeofenceEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/VehicleArrivalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/VehicleDepartureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/VehicleHeartbeatRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/VehicleHeartbeatTimeSeriesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/VehicleMediaRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/VehiclePhotoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/VehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/data/repos/VehicleVideoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/filters/MonitorAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/filters/RequestThrottleFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/filters/SimpleCorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/AppErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/AssociationBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/AssociationCounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/AssociationHeartbeatAggregationId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/AssociationHeartbeatAggregationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/BigBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/CalculatedDistanceList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/CounterBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/DispatchRecordList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/GenerationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/RouteAssignmentList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/RouteBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/RouteBagList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/RouteDistanceFromSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/RouteSearchInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/TranslationInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/VehicleBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/VehicleHeartbeatAggregationId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/VehicleHeartbeatAggregationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/helpermodels/VehicleList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/AmbassadorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/AssociationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/CityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/CloudStorageUploaderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/CommuterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/DataFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/DispatchAsyncHelperService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/DispatchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/FirebaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/GeoHashFixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/HeartbeatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/LandmarkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/LocationRequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/MediaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/MessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/MongoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/RouteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/SecretManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/TextTranslationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/TimeSeriesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/UserGeofenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/ControllerRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/CustomResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/FileToUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/FileToVehicles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/MyControllerGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/ServiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/TypeScriptGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/VehicleUploadResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/Zipper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/countries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users_excel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vehicles.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vehicles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vehicles_excel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VCKt9jfKWJBaYLBHv5xfWjTZbd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ACTIVE_CLOUD_PROJECT_ACCOUNT": "malengadev@gmail.com",
+    "ACTIVE_CLOUD_PROJECT_ID": "thermal-effort-366015",
+    "ACTIVE_CLOUD_PROJECT_NAME": "Data Engineering Sandbox",
+    "ACTIVE_CLOUD_PROJECT_NUMBER": "79998394043",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.google.cloudcode.ide_session_index": "20230910_0000",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/aubreymalabie/Work/aftarobot/kasietransie_springboot",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/boha/kasietransie" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.KasieTransieBackendApplication">
+    <configuration name="KasieTransieBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boha.kasietransie.KasieTransieBackendApplication" />
+      <module name="kasietransie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.boha.kasietransie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KasietransieApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.boha.kasietransie.KasietransieApplication" />
+      <module name="kasietransie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.boha.kasietransie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.KasieTransieBackendApplication" />
+        <item itemvalue="Application.KasietransieApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="189642ce-6e2c-4b2c-bb42-d627aed44142" name="Changes" comment="" />
+      <created>1694334834257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694334834257</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit after repo move" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit after repo move" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="dbfe96">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/config/MongoConfig.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/SecretManagerService.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/E.java" />
+                </list>
+              </option>
+              <option name="id" value="dbfe96" />
+              <option name="initiateTms" value="1694338198025" />
+              <option name="request" value="what causes this error: Failed to instantiate [com.google.cloud.firestore.Firestore]: Factory method 'firestore' threw exception with message: io.grpc.LoadBalancerProvider: io.grpc.xds.WeightedRoundRobinLoadBalancerProvider Unable to get public no-arg constructor" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="The error message &quot;Failed to instantiate [com.google.cloud.firestore.Firestore]: Factory method 'firestore' threw exception with message: io.grpc.LoadBalancerProvider: io.grpc.xds.WeightedRoundRobinLoadBalancerProvider Unable to get public no-arg constructor&quot; indicates that there is an issue with the instantiation of the `com.google.cloud.firestore.Firestore` object. The factory method `firestore` is throwing an exception related to the `io.grpc.LoadBalancerProvider` class.&#10;&#10;This error typically occurs when the `io.grpc.xds.WeightedRoundRobinLoadBalancerProvider` class does not have a public no-argument constructor. The `io.grpc.LoadBalancerProvider` class is responsible for providing load balancing functionality for gRPC communication.&#10;&#10;To resolve this error, you can try the following steps:&#10;&#10;1. Check the version compatibility: Ensure that you are using compatible versions of the gRPC library and the Firestore library. In some cases, incompatible versions can cause issues with the load balancer provider.&#10;&#10;2. Update dependencies: Update the dependencies in your project to the latest versions. This can help resolve any known issues or compatibility problems.&#10;&#10;3. Check for conflicting dependencies: Make sure there are no conflicting dependencies in your project that could be causing issues with the load balancer provider. Conflicting dependencies can lead to classpath issues and prevent the load balancer provider from being instantiated correctly.&#10;&#10;4. Check for custom load balancer configurations: If you have custom load balancer configurations in your code or configuration files, ensure that they are correctly implemented and do not conflict with the load balancer provider.&#10;&#10;5. Review the Firestore configuration: Double-check the configuration of the Firestore client to ensure that it is correctly set up and initialized. Make sure all required properties are provided and that the configuration is compatible with the Firestore library version you are using.&#10;&#10;If the issue persists after trying these steps, it may be necessary to provide more information about your project setup, including the versions of the libraries you are using and any relevant code snippets, to further diagnose the problem." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1694338211539" />
+              <option name="usedFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/config/MongoConfig.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/util/E.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/com/boha/kasietransie/services/SecretManagerService.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
